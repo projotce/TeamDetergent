@@ -1,0 +1,176 @@
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            black;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            black;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            black;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: black;
+  color: black;
+  } 
+
+.one
+{
+    max-width:100%;
+    height:30%;
+    text-align:center;
+    background-color: #6f8fd1;
+    padding: 10%;
+}
+
+.two
+{
+    max-width:100%;
+    height:30%;
+    text-align:center;
+    background-color: #6f8fd1;
+    padding: 10%;
+
+}
+
+
+#wardrobe{
+    width: 50%;
+    float: left;
+}
+
+#laundry{
+    width: 50%;
+    float: left;
+
+}
+
+#pickoutfit{
+    float: left;
+    width: 50%;
+}
+
+#outfit{
+    float: left;
+    width: 50%;
+}
+
+
+.container{
+    padding:20px;
+}
+
+.headermenu {
+    width:100%;
+    height:20%;
+}
+
+.headerleft{
+    width:50%;
+    float:left;
+    padding:20px;
+}
+
+.headerright{
+    width:50%;
+    float:left;
+    text-align:right;
+    padding:20px;
+}
+
+.headerimg{
+    width:10%;
+    height:auto;
+}
+
+
+.clothes
+{
+    float:left;
+    width:50%;
+    text-align:center;
+}
+
+.outfit
+{
+    float:left;
+    text-align:center;
+    width:50%;
+}
+
+#button{
+    width:30%;
+    background-color: #b82009;
+    border:none;
+    text-align:center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 1em;
+    color: #ffffff;
+    height:2em;
+}
+
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer img{
+    padding: 0.8em;
+    }
